@@ -1,0 +1,119 @@
+[{"stream_name":"stdout","time":16.542461615,"data":"torch 2.11.0+cu130 ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stdout","time":16.543994002,"data":"[      0s] gpu0 start ce32\n"}
+,{"stream_name":"stdout","time":16.544582206,"data":"[      0s] gpu1 start ce64\n"}
+,{"stream_name":"stdout","time":3896.606960665,"data":"[   3880s] gpu0 end ce32 rc=0\n"}
+,{"stream_name":"stdout","time":3896.607285944,"data":"   15000  test_acc min/med/max 0.000/0.109/1.000  collapse med 0.000  579s\n"}
+,{"stream_name":"stdout","time":3896.607297903,"data":"step   20000  test_acc min/med/max 0.000/0.223/1.000  collapse med 0.000  772s\n"}
+,{"stream_name":"stdout","time":3896.607304449,"data":"step   25000  test_acc min/med/max 0.000/0.519/1.000  collapse med 0.000  966s\n"}
+,{"stream_name":"stdout","time":3896.607310401,"data":"step   30000  test_acc min/med/max 0.000/0.762/1.000  collapse med 0.000  1159s\n"}
+,{"stream_name":"stdout","time":3896.607315931,"data":"step   35000  test_acc min/med/max 0.000/0.896/1.000  collapse med 0.000  1352s\n"}
+,{"stream_name":"stdout","time":3896.60732142,"data":"step   40000  test_acc min/med/max 0.000/0.958/1.000  collapse med 0.000  1544s\n"}
+,{"stream_name":"stdout","time":3896.607326999,"data":"step   45000  test_acc min/med/max 0.000/0.983/1.000  collapse med 0.000  1737s\n"}
+,{"stream_name":"stdout","time":3896.60733254,"data":"step   50000  test_acc min/med/max 0.000/0.989/1.000  collapse med 0.000  1929s\n"}
+,{"stream_name":"stdout","time":3896.607338139,"data":"step   55000  test_acc min/med/max 0.000/0.989/1.000  collapse med 0.000  2122s\n"}
+,{"stream_name":"stdout","time":3896.60734363,"data":"step   60000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  2315s\n"}
+,{"stream_name":"stdout","time":3896.607349171,"data":"step   65000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  2508s\n"}
+,{"stream_name":"stdout","time":3896.607354618,"data":"step   70000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  2701s\n"}
+,{"stream_name":"stdout","time":3896.607360112,"data":"step   75000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  2894s\n"}
+,{"stream_name":"stdout","time":3896.607365449,"data":"step   80000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  3088s\n"}
+,{"stream_name":"stdout","time":3896.607371287,"data":"step   85000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  3282s\n"}
+,{"stream_name":"stdout","time":3896.607376849,"data":"step   90000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  3477s\n"}
+,{"stream_name":"stdout","time":3896.607382206,"data":"step   95000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  3671s\n"}
+,{"stream_name":"stdout","time":3896.607387678,"data":"step  100000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  3864s\n"}
+,{"stream_name":"stdout","time":3896.607393407,"data":"done: /kaggle/working/runs/audit/ce32  (3863.5 s on cuda Tesla T4)\n"}
+,{"stream_name":"stdout","time":3896.60739903,"data":"\n"}
+,{"stream_name":"stdout","time":3906.608472794,"data":"[   3890s] gpu0 start margin32\n"}
+,{"stream_name":"stdout","time":4806.62307158,"data":"[   4790s] gpu1 end ce64 rc=0\n"}
+,{"stream_name":"stdout","time":4806.623162328,"data":"  15000  test_acc min/med/max 0.000/0.111/1.000  collapse med 0.000  716s\n"}
+,{"stream_name":"stdout","time":4806.623169044,"data":"step   20000  test_acc min/med/max 0.000/0.393/1.000  collapse med 0.000  954s\n"}
+,{"stream_name":"stdout","time":4806.623173783,"data":"step   25000  test_acc min/med/max 0.000/0.700/1.000  collapse med 0.000  1193s\n"}
+,{"stream_name":"stdout","time":4806.623178085,"data":"step   30000  test_acc min/med/max 0.000/0.880/1.000  collapse med 0.000  1432s\n"}
+,{"stream_name":"stdout","time":4806.623204171,"data":"step   35000  test_acc min/med/max 0.000/0.959/1.000  collapse med 0.000  1670s\n"}
+,{"stream_name":"stdout","time":4806.623207157,"data":"step   40000  test_acc min/med/max 0.000/0.985/1.000  collapse med 0.000  1908s\n"}
+,{"stream_name":"stdout","time":4806.623210434,"data":"step   45000  test_acc min/med/max 0.000/0.995/1.000  collapse med 0.001  2147s\n"}
+,{"stream_name":"stdout","time":4806.623227237,"data":"step   50000  test_acc min/med/max 0.000/0.998/1.000  collapse med 0.000  2385s\n"}
+,{"stream_name":"stdout","time":4806.623231059,"data":"step   55000  test_acc min/med/max 0.000/0.999/1.000  collapse med 0.000  2624s\n"}
+,{"stream_name":"stdout","time":4806.623234967,"data":"step   60000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.001  2862s\n"}
+,{"stream_name":"stdout","time":4806.623238615,"data":"step   65000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  3101s\n"}
+,{"stream_name":"stdout","time":4806.623242724,"data":"step   70000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  3339s\n"}
+,{"stream_name":"stdout","time":4806.623246645,"data":"step   75000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  3578s\n"}
+,{"stream_name":"stdout","time":4806.623250021,"data":"step   80000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  3816s\n"}
+,{"stream_name":"stdout","time":4806.623253389,"data":"step   85000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  4055s\n"}
+,{"stream_name":"stdout","time":4806.623256727,"data":"step   90000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  4294s\n"}
+,{"stream_name":"stdout","time":4806.623260074,"data":"step   95000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.001  4532s\n"}
+,{"stream_name":"stdout","time":4806.623263399,"data":"step  100000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.001  4771s\n"}
+,{"stream_name":"stdout","time":4806.623266748,"data":"done: /kaggle/working/runs/audit/ce64  (4770.5 s on cuda Tesla T4)\n"}
+,{"stream_name":"stdout","time":4806.623270058,"data":"\n"}
+,{"stream_name":"stdout","time":4816.624195909,"data":"[   4800s] gpu1 start ref64\n"}
+,{"stream_name":"stdout","time":8046.676377679,"data":"[   8030s] gpu0 end margin32 rc=0\n"}
+,{"stream_name":"stdout","time":8046.676753769,"data":"000  test_acc min/med/max 0.000/0.110/1.000  collapse med 0.000  620s\n"}
+,{"stream_name":"stdout","time":8046.676767089,"data":"step   20000  test_acc min/med/max 0.000/0.396/1.000  collapse med 0.000  826s\n"}
+,{"stream_name":"stdout","time":8046.676773051,"data":"step   25000  test_acc min/med/max 0.000/0.702/1.000  collapse med 0.000  1033s\n"}
+,{"stream_name":"stdout","time":8046.676778201,"data":"step   30000  test_acc min/med/max 0.000/0.879/1.000  collapse med 0.000  1240s\n"}
+,{"stream_name":"stdout","time":8046.676783875,"data":"step   35000  test_acc min/med/max 0.000/0.957/1.000  collapse med 0.000  1447s\n"}
+,{"stream_name":"stdout","time":8046.676789422,"data":"step   40000  test_acc min/med/max 0.000/0.986/1.000  collapse med 0.000  1653s\n"}
+,{"stream_name":"stdout","time":8046.676794853,"data":"step   45000  test_acc min/med/max 0.000/0.996/1.000  collapse med 0.000  1860s\n"}
+,{"stream_name":"stdout","time":8046.676799581,"data":"step   50000  test_acc min/med/max 0.000/0.998/1.000  collapse med 0.000  2066s\n"}
+,{"stream_name":"stdout","time":8046.676804108,"data":"step   55000  test_acc min/med/max 0.000/0.999/1.000  collapse med 0.000  2273s\n"}
+,{"stream_name":"stdout","time":8046.676808578,"data":"step   60000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  2479s\n"}
+,{"stream_name":"stdout","time":8046.676813065,"data":"step   65000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  2686s\n"}
+,{"stream_name":"stdout","time":8046.676831151,"data":"step   70000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  2893s\n"}
+,{"stream_name":"stdout","time":8046.676835155,"data":"step   75000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  3099s\n"}
+,{"stream_name":"stdout","time":8046.676838783,"data":"step   80000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  3306s\n"}
+,{"stream_name":"stdout","time":8046.676842598,"data":"step   85000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  3513s\n"}
+,{"stream_name":"stdout","time":8046.676846212,"data":"step   90000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.001  3720s\n"}
+,{"stream_name":"stdout","time":8046.676849822,"data":"step   95000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.001  3927s\n"}
+,{"stream_name":"stdout","time":8046.676855093,"data":"step  100000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.001  4134s\n"}
+,{"stream_name":"stdout","time":8046.67686264,"data":"done: /kaggle/working/runs/audit/margin32  (4134.0 s on cuda Tesla T4)\n"}
+,{"stream_name":"stdout","time":8046.676865319,"data":"\n"}
+,{"stream_name":"stdout","time":8056.678300332,"data":"[   8040s] gpu0 start ce32_ulp\n"}
+,{"stream_name":"stdout","time":11856.740436365,"data":"[  11840s] gpu0 end ce32_ulp rc=0\n"}
+,{"stream_name":"stdout","time":11856.740809108,"data":"5000  test_acc min/med/max 0.000/0.111/1.000  collapse med 0.000  567s\n"}
+,{"stream_name":"stdout","time":11856.740828951,"data":"step   20000  test_acc min/med/max 0.000/0.223/1.000  collapse med 0.000  756s\n"}
+,{"stream_name":"stdout","time":11856.740834402,"data":"step   25000  test_acc min/med/max 0.000/0.521/1.000  collapse med 0.000  946s\n"}
+,{"stream_name":"stdout","time":11856.740839006,"data":"step   30000  test_acc min/med/max 0.000/0.763/1.000  collapse med 0.000  1134s\n"}
+,{"stream_name":"stdout","time":11856.740843606,"data":"step   35000  test_acc min/med/max 0.000/0.897/1.000  collapse med 0.000  1324s\n"}
+,{"stream_name":"stdout","time":11856.740848104,"data":"step   40000  test_acc min/med/max 0.000/0.959/1.000  collapse med 0.000  1513s\n"}
+,{"stream_name":"stdout","time":11856.740852717,"data":"step   45000  test_acc min/med/max 0.000/0.983/1.000  collapse med 0.000  1702s\n"}
+,{"stream_name":"stdout","time":11856.740867941,"data":"step   50000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  1891s\n"}
+,{"stream_name":"stdout","time":11856.740872925,"data":"step   55000  test_acc min/med/max 0.000/0.991/1.000  collapse med 0.000  2081s\n"}
+,{"stream_name":"stdout","time":11856.740877854,"data":"step   60000  test_acc min/med/max 0.000/0.991/1.000  collapse med 0.000  2270s\n"}
+,{"stream_name":"stdout","time":11856.740883095,"data":"step   65000  test_acc min/med/max 0.000/0.992/1.000  collapse med 0.000  2460s\n"}
+,{"stream_name":"stdout","time":11856.740887475,"data":"step   70000  test_acc min/med/max 0.000/0.992/1.000  collapse med 0.000  2650s\n"}
+,{"stream_name":"stdout","time":11856.740891672,"data":"step   75000  test_acc min/med/max 0.000/0.993/1.000  collapse med 0.000  2840s\n"}
+,{"stream_name":"stdout","time":11856.740895817,"data":"step   80000  test_acc min/med/max 0.000/0.994/1.000  collapse med 0.000  3030s\n"}
+,{"stream_name":"stdout","time":11856.740899963,"data":"step   85000  test_acc min/med/max 0.000/0.994/1.000  collapse med 0.000  3220s\n"}
+,{"stream_name":"stdout","time":11856.740904059,"data":"step   90000  test_acc min/med/max 0.000/0.995/1.000  collapse med 0.000  3410s\n"}
+,{"stream_name":"stdout","time":11856.740908265,"data":"step   95000  test_acc min/med/max 0.000/0.995/1.000  collapse med 0.000  3600s\n"}
+,{"stream_name":"stdout","time":11856.740912423,"data":"step  100000  test_acc min/med/max 0.000/0.994/1.000  collapse med 0.001  3790s\n"}
+,{"stream_name":"stdout","time":11856.74094853,"data":"done: /kaggle/working/runs/audit/ce32_ulp  (3790.0 s on cuda Tesla T4)\n"}
+,{"stream_name":"stdout","time":11856.74095468,"data":"\n"}
+,{"stream_name":"stdout","time":14216.783065929,"data":"[  14200s] gpu1 end ref64 rc=0\n"}
+,{"stream_name":"stdout","time":14216.783458588,"data":"5000  test_acc min/med/max 0.000/0.111/1.000  collapse med 0.000  1409s\n"}
+,{"stream_name":"stdout","time":14216.783478095,"data":"step   20000  test_acc min/med/max 0.000/0.397/1.000  collapse med 0.000  1878s\n"}
+,{"stream_name":"stdout","time":14216.78348303,"data":"step   25000  test_acc min/med/max 0.000/0.703/1.000  collapse med 0.000  2348s\n"}
+,{"stream_name":"stdout","time":14216.783487438,"data":"step   30000  test_acc min/med/max 0.000/0.879/1.000  collapse med 0.000  2818s\n"}
+,{"stream_name":"stdout","time":14216.783491832,"data":"step   35000  test_acc min/med/max 0.000/0.959/1.000  collapse med 0.000  3288s\n"}
+,{"stream_name":"stdout","time":14216.783496061,"data":"step   40000  test_acc min/med/max 0.000/0.986/1.000  collapse med 0.000  3757s\n"}
+,{"stream_name":"stdout","time":14216.783500233,"data":"step   45000  test_acc min/med/max 0.000/0.995/1.000  collapse med 0.000  4227s\n"}
+,{"stream_name":"stdout","time":14216.783504462,"data":"step   50000  test_acc min/med/max 0.000/0.998/1.000  collapse med 0.000  4697s\n"}
+,{"stream_name":"stdout","time":14216.783508682,"data":"step   55000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  5166s\n"}
+,{"stream_name":"stdout","time":14216.783512953,"data":"step   60000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.001  5636s\n"}
+,{"stream_name":"stdout","time":14216.783517874,"data":"step   65000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  6106s\n"}
+,{"stream_name":"stdout","time":14216.78352283,"data":"step   70000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  6575s\n"}
+,{"stream_name":"stdout","time":14216.78352813,"data":"step   75000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  7045s\n"}
+,{"stream_name":"stdout","time":14216.7835331,"data":"step   80000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  7515s\n"}
+,{"stream_name":"stdout","time":14216.783537332,"data":"step   85000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  7985s\n"}
+,{"stream_name":"stdout","time":14216.783541513,"data":"step   90000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  8454s\n"}
+,{"stream_name":"stdout","time":14216.783545656,"data":"step   95000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  8924s\n"}
+,{"stream_name":"stdout","time":14216.783549873,"data":"step  100000  test_acc min/med/max 0.000/1.000/1.000  collapse med 0.000  9393s\n"}
+,{"stream_name":"stdout","time":14216.783554124,"data":"done: /kaggle/working/runs/audit/ref64  (9393.3 s on cuda Tesla T4)\n"}
+,{"stream_name":"stdout","time":14216.783558326,"data":"\n"}
+,{"stream_name":"stdout","time":14226.78373547,"data":"all done 14210.240329265594 failed: []\n"}
+,{"stream_name":"stderr","time":14230.164150225,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":14230.164175162,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":14230.675678515,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":14230.675706348,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14231.833028929,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":14233.266739896,"data":"[NbConvertApp] Writing 303076 bytes to __results__.html\n"}
+]

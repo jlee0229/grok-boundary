@@ -1,0 +1,22 @@
+step       0  test_acc min/med/max 0.007/0.011/0.011  collapse med 0.000  0s
+step    5000  test_acc min/med/max 0.000/0.015/0.992  collapse med 0.000  188s
+step   10000  test_acc min/med/max 0.000/0.019/1.000  collapse med 0.000  378s
+step   15000  test_acc min/med/max 0.000/0.111/1.000  collapse med 0.000  567s
+step   20000  test_acc min/med/max 0.000/0.223/1.000  collapse med 0.000  756s
+step   25000  test_acc min/med/max 0.000/0.521/1.000  collapse med 0.000  946s
+step   30000  test_acc min/med/max 0.000/0.763/1.000  collapse med 0.000  1134s
+step   35000  test_acc min/med/max 0.000/0.897/1.000  collapse med 0.000  1324s
+step   40000  test_acc min/med/max 0.000/0.959/1.000  collapse med 0.000  1513s
+step   45000  test_acc min/med/max 0.000/0.983/1.000  collapse med 0.000  1702s
+step   50000  test_acc min/med/max 0.000/0.990/1.000  collapse med 0.000  1891s
+step   55000  test_acc min/med/max 0.000/0.991/1.000  collapse med 0.000  2081s
+step   60000  test_acc min/med/max 0.000/0.991/1.000  collapse med 0.000  2270s
+step   65000  test_acc min/med/max 0.000/0.992/1.000  collapse med 0.000  2460s
+step   70000  test_acc min/med/max 0.000/0.992/1.000  collapse med 0.000  2650s
+step   75000  test_acc min/med/max 0.000/0.993/1.000  collapse med 0.000  2840s
+step   80000  test_acc min/med/max 0.000/0.994/1.000  collapse med 0.000  3030s
+step   85000  test_acc min/med/max 0.000/0.994/1.000  collapse med 0.000  3220s
+step   90000  test_acc min/med/max 0.000/0.995/1.000  collapse med 0.000  3410s
+step   95000  test_acc min/med/max 0.000/0.995/1.000  collapse med 0.000  3600s
+step  100000  test_acc min/med/max 0.000/0.994/1.000  collapse med 0.001  3790s
+done: /kaggle/working/runs/audit/ce32_ulp  (3790.0 s on cuda Tesla T4)

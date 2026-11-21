@@ -1,0 +1,314 @@
+{
+ "cfg": {
+  "p": 97,
+  "width": 512,
+  "frac": 0.4,
+  "steps": 100000,
+  "betas": [
+   0.9,
+   0.98
+  ],
+  "init_scale": 1.0,
+  "variant": "ce32_ulp",
+  "loss": "ce",
+  "dtype": "float32"
+ },
+ "replicas": [
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-06,
+   "ulp_flip": 1000
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-06,
+   "ulp_flip": 1001
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-06,
+   "ulp_flip": 1002
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-06,
+   "ulp_flip": 1003
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-08,
+   "ulp_flip": 1004
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-08,
+   "ulp_flip": 1005
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-08,
+   "ulp_flip": 1006
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-08,
+   "ulp_flip": 1007
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-12,
+   "ulp_flip": 1008
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-12,
+   "ulp_flip": 1009
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-12,
+   "ulp_flip": 1010
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 0.0,
+   "eps": 1e-12,
+   "ulp_flip": 1011
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-06,
+   "ulp_flip": 1012
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-06,
+   "ulp_flip": 1013
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-06,
+   "ulp_flip": 1014
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-06,
+   "ulp_flip": 1015
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-08,
+   "ulp_flip": 1016
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-08,
+   "ulp_flip": 1017
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-08,
+   "ulp_flip": 1018
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-08,
+   "ulp_flip": 1019
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-12,
+   "ulp_flip": 1020
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-12,
+   "ulp_flip": 1021
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-12,
+   "ulp_flip": 1022
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 0.1,
+   "eps": 1e-12,
+   "ulp_flip": 1023
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-06,
+   "ulp_flip": 1024
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-06,
+   "ulp_flip": 1025
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-06,
+   "ulp_flip": 1026
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-06,
+   "ulp_flip": 1027
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-08,
+   "ulp_flip": 1028
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-08,
+   "ulp_flip": 1029
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-08,
+   "ulp_flip": 1030
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-08,
+   "ulp_flip": 1031
+  },
+  {
+   "init_seed": 0,
+   "mask_seed": 0,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-12,
+   "ulp_flip": 1032
+  },
+  {
+   "init_seed": 1,
+   "mask_seed": 1,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-12,
+   "ulp_flip": 1033
+  },
+  {
+   "init_seed": 2,
+   "mask_seed": 2,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-12,
+   "ulp_flip": 1034
+  },
+  {
+   "init_seed": 3,
+   "mask_seed": 3,
+   "lr": 0.001,
+   "wd": 1.0,
+   "eps": 1e-12,
+   "ulp_flip": 1035
+  }
+ ],
+ "device": "cuda",
+ "device_name": "Tesla T4",
+ "torch": "2.11.0+cu130",
+ "threads": 2,
+ "tf32": false,
+ "seconds": 3790.0,
+ "nonfinite_loss_at_log_step": null,
+ "complete": true
+}
